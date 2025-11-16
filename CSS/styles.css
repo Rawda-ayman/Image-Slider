@@ -1,0 +1,36 @@
+.image
+{
+  width: 400px; 
+  height:400px ;
+  cursor: pointer;
+}
+.lightcontainer
+{
+    position: fixed;
+    z-index: 99999;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.7);
+}
+.lightcontainer .innercontainer
+{
+    background-image: url("../images/image 1.jpg");
+    background-size: cover; 
+    background-position: center center; 
+    width: 50%;
+    height: 50%;
+}
+.closeicon
+{
+    cursor: pointer;
+}
+.nexticon
+{
+    cursor: pointer;
+}
+.previcon
+{
+    cursor: pointer;
+}
